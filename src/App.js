@@ -4,7 +4,8 @@ import './components/useHook.component';
 // import PrevState from './components/prevState.component';
 // import UseStateObject from './components/useStateObject.component';
 // import UseStateArray from './components/useStateArray.component';
-import UseEffectComponent from './components/useEffect.component';
+// import UseEffect from './components/useEffect.component';
+import UseEffectRunOnce from './components/useEffectRunOnce.component';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <PrevState /> */}
       {/* <UseStateObject /> */}
       {/* <UseStateArray /> */}
-      <UseEffectComponent />
+      {/* <UseEffect /> */}
+      <UseEffectRunOnce />
     </div>
   );
 }

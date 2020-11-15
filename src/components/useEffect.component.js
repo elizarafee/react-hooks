@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-function UseEffectComponent(props) {
+function UseEffect(props) {
     const [count, setCount] = useState(0);
     const [name, setName] = useState('');
 
@@ -17,4 +17,4 @@ function UseEffectComponent(props) {
     )
 }
 
-export default UseEffectComponent;
+export default UseEffect;
