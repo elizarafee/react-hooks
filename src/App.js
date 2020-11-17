@@ -8,7 +8,8 @@ import './components/useHook.component';
 // import UseEffectRunOnce from './components/useEffectRunOnce.component';
 // import UseEffectWithDependency from './components/useEffectWithDependency.component';
 // import FetchAllDataFromApi from './components/fetchAllDataFromApi.component';
-import FetchParticularDataFromApi from './components/fetchParticularDataFromApi.component';
+// import FetchParticularDataFromApi from './components/fetchParticularDataFromApi.component';
+import FetchDataOnButtonClick from './components/fetchDataOnButtonClick';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <UseEffectRunOnce /> */}
       {/* <UseEffectWithDependency />  */}
       {/* <FetchAllDataFromApi /> */}
-      <FetchParticularDataFromApi />
+      {/* <FetchParticularDataFromApi /> */}
+      <FetchDataOnButtonClick />
     </div>
   );
 }
