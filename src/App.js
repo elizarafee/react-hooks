@@ -7,7 +7,8 @@ import './components/useHook.component';
 // import UseEffect from './components/useEffect.component';
 // import UseEffectRunOnce from './components/useEffectRunOnce.component';
 // import UseEffectWithDependency from './components/useEffectWithDependency.component';
-import FetchAllDataFromApi from './components/fetchAllDataFromApi.component'
+// import FetchAllDataFromApi from './components/fetchAllDataFromApi.component';
+import FetchParticularDataFromApi from './components/fetchParticularDataFromApi.component';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseEffectRunOnce /> */}
       {/* <UseEffectWithDependency />  */}
-      <FetchAllDataFromApi />
+      {/* <FetchAllDataFromApi /> */}
+      <FetchParticularDataFromApi />
     </div>
   );
 }
